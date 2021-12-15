@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import Card from './components/Card';
 
 function App() {
+
+  const persona = [
+    {name: 'Jose', age: '26'},
+    {name: 'Benjamin', age: '29'},
+    {name: 'Raul', age: '32'},
+    {name: 'Andrea', age: '45'},
+    {name: 'Sofia', age: '23'},
+  ]
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <h1>Hola Mundo</h1>
+      { persona.map(p => <Card name={p.name} age={p.age}/>)}
     </div>
   );
 }
