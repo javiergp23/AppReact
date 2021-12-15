@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <h1>Hola Mundo</h1>
+      <h1>App React</h1>
       { persona.map(p => <Card name={p.name} age={p.age}/>)}
     </div>
   );
