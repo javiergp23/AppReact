@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.contador{
+  width: 100px;
+  margin: auto;
+  background: rgb(141, 141, 156);
+  padding: 5px;
+  border-radius: 10px;
+}

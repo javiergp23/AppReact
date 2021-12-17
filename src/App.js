@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
+import Counter from './components/Counter';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <h1>App React</h1>
+      <Counter/>
       { persona.map(p => <Card name={p.name} age={p.age}/>)}
     </div>
   );
