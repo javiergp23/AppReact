@@ -22,11 +22,11 @@ const NavBar = () => {
                         <a className="nav-link" href="." alt="pricing">Pricing</a>
                      </li>
                      <li className="nav-item">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fas fa-cart-arrow-down"></i>
+                        <div className="dropdown">
+                            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i className="fas fa-cart-arrow-down"></i>
                             </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                <li>1</li>
                                <li>2</li>
                                <li>3</li>
